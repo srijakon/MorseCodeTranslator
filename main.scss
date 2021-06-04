@@ -1,9 +1,25 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
 }
 h1 {
-  display: flex;
-  align-items: center;
   text-align: center;
+  color: darkcyan;
+}
+input[type="text"] {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  margin-top: 30px;
+  border: 2px solid chocolate;
+  font-size: 20px;
+}
+button {
+  display: block;
+  margin: 10px auto;
 }

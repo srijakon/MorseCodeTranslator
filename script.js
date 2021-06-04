@@ -6,4 +6,3 @@ const button = document
     const result = translateEnglishToMorse(word);
     alert(result);
   });
-s;
